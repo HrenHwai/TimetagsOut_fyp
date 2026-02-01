@@ -25,7 +25,7 @@ experiment.
 - Toeplitz hashing (extractor compression using an estimated min-entropy)
 
 ## 4) Quality metrics and analysis
-- Bias per block: \|P(1) - 0.5|\
+- Bias per block: \|P(1) - 0.5\|
 - min-entropy estimate
 - temporal correlation analysis (autocorrelation or fft-based correlation)
 
@@ -33,3 +33,7 @@ experiment.
 install common scientifuc python packages:
 '''bash
 pip install numpy pandas h5py scipy matplotlib
+
+## Project structure
+- `src/timetagsout/` — core Python implementation (`TimetagsOut`)
+- `examples/` — Jupyter notebook(s) demonstrating usage and analysis
